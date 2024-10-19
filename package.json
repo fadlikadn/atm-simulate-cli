@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "src/index.ts",
   "scripts": {
+    "build": "tsc",
     "test": "jest"
   },
   "keywords": [],
@@ -20,6 +21,13 @@
     "ts-node": "^10.9.2"
   },
   "bin": {
-    "atm-cli": "./src/index.ts"
+    "atm-cli": "./src/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/fadlikadn/atm-simulate-cli.git"
   }
 }

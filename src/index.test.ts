@@ -1,4 +1,4 @@
-import { ATM } from "./atm";
+import { ATM } from "./index";
 
 describe('ATM', () => {
   let atm: ATM

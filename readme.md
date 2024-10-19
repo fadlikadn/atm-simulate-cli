@@ -155,7 +155,8 @@ Goodbye, Bob!
 ```
 
 
-
-
+----------------------------------
+# Instruction how to working this repo
 
 run directly with `npx ts-node src/index.ts`
+run test with `npx jest`
